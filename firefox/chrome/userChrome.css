@@ -1,0 +1,32 @@
+:root {
+    --toolbox-bgcolor: transparent;
+    --toolbox-bgcolor-inactive: transparent;
+}
+
+#browser,
+#navigator-toolbox,
+#main-window,
+#newtab-page,
+#nav-bar,
+#urlbar-background,
+#appcontent {
+    background: transparent !important;
+}
+hbox#urlbar[open="true"] hbox#urlbar-background {
+    background: #ff0000f0 !important;
+}
+toolbar {
+    background: transparent !important;
+}
+
+/* tab.tabbrowser-tab[selected="true"] stack.tab-stack vbox.tab-background {
+    background: #ffffff28 !important;
+    backdrop-filter: blur(2px);
+} */
+/* url bar */
+#urlbar {
+    border: #fffa 1.5px solid !important;
+    border-radius: 10px !important;
+    background: #333a !important;
+    backdrop-filter: brightness(80%);
+}

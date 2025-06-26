@@ -1,0 +1,23 @@
+@import url("components/variables.css");
+
+/* Removes the white loading page */
+@-moz-document url(about:blank) {
+    html:not(#ublock0-epicker),
+    html:not(#ublock0-epicker) body,
+    #newtab-customize-overlay {
+        background: transparent !important;
+    }
+}
+
+@-moz-document url(about:newtab), url(about:home) {
+    body {
+        background: linear-gradient(#271b29, #da3c70, #121d31) !important;
+        backdrop-filter: brightness(60%);
+        width: 100%;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-attachment: fixed !important;
+        overflow: hidden;
+    }
+}

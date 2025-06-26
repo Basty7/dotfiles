@@ -2,7 +2,7 @@
 /* @import "mocha.css"; */
 
 * {
-    font-family: FantasqueSansMono Nerd Font;
+    /* font-family: Arial; */
     font-size: 12px;
     min-height: 0;
 }
@@ -17,7 +17,7 @@
     border-radius: 1rem;
     margin: 5px;
     background-color: @surface0;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
 }
 
 #workspaces button {
@@ -46,7 +46,8 @@
 #custom-power,
 #cpu,
 #memory,
-#temperature {
+#temperature,
+#custom-drawer {
     background-color: @surface0;
     padding: 0.5rem 1rem;
     margin: 5px 0;
@@ -60,6 +61,7 @@
 
 #battery {
     color: @green;
+    border-radius: 0px 1rem 1rem 0px;
 }
 
 #battery.charging {
@@ -74,8 +76,7 @@
     color: @yellow;
 }
 
-#backlight,
-#battery {
+#backlight {
     border-radius: 0;
 }
 
@@ -90,18 +91,26 @@
     border-radius: 1rem;
 }
 
-#custom-lock {
-    border-radius: 1rem 0px 0px 1rem;
+#custom-drawer {
+    border-radius: 1rem;
+    padding-right: 1.5em;
+    margin-left: 1rem;
     color: @lavender;
 }
 
 #custom-power {
     margin-right: 1rem;
-    border-radius: 0px 1rem 1rem 0px;
+    border-radius: 1rem;
     color: @red;
 }
 
 #tray {
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
     border-radius: 1rem;
+}
+
+#workspaces,
+#custom-power,
+#custom-drawer {
+    font-family: "FantasqueSansM Nerd Font";
 }

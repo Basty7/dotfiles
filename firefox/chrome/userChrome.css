@@ -4,7 +4,6 @@
 }
 
 #browser,
-#navigator-toolbox,
 #main-window,
 #newtab-page,
 #nav-bar,
@@ -12,6 +11,12 @@
 #appcontent {
     background: transparent !important;
 }
+
+#navigator-toolbox,
+#sidebar-main {
+    background: #cccccc30 !important;
+}
+
 hbox#urlbar[open="true"] hbox#urlbar-background {
     background: #ff0000f0 !important;
 }

@@ -75,9 +75,6 @@
 
 #backlight {
     color: @yellow;
-}
-
-#backlight {
     border-radius: 0;
 }
 
@@ -102,6 +99,7 @@
 #custom-power {
     margin-right: 1rem;
     border-radius: 1rem;
+    padding: 0.5rem 1rem 0.5rem 0.8rem;
     color: @red;
 }
 

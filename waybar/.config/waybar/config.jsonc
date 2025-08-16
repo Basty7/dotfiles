@@ -20,6 +20,7 @@
     "keyboard-state",
     "battery",
     "tray",
+    "custom/logout",
     "custom/power",
   ],
   // Modules configuration
@@ -207,6 +208,11 @@
     "format": "⏻",
     "tooltip": false,
     "on-click": "hyprctl dispatch exit",
+  },
+  "custom/logout": {
+    "format": "󰩈",
+    "tooltip": false,
+    "on-click": "hyprlock",
   },
   "custom/drawer": {
     "format": "",

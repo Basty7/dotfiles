@@ -45,6 +45,7 @@
 #pulseaudio,
 #custom-lock,
 #custom-power,
+#custom-logout,
 #cpu,
 #memory,
 #temperature,
@@ -98,9 +99,14 @@
 
 #custom-power {
     margin-right: 1rem;
-    border-radius: 1rem;
+    border-radius: 0 1rem 1rem 0;
     padding: 0.5rem 1rem 0.5rem 0.8rem;
     color: @red;
+}
+#custom-logout {
+    border-radius: 1rem 0 0 1rem;
+    padding: 0.5rem 0.8rem 0.5rem 1rem;
+    color: @peach;
 }
 
 #tray {

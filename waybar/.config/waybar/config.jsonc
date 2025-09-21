@@ -9,10 +9,8 @@
   "modules-left": ["custom/drawer", "hyprland/workspaces", "hyprland/window"],
   "modules-center": ["clock"],
   "modules-right": [
-    "mpd",
     "idle_inhibitor",
     "pulseaudio",
-    // "power-profiles-daemon",
     "cpu",
     "memory",
     "temperature",
@@ -82,6 +80,18 @@
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "format-alt": "{:%d/%m/%Y}",
     "on-click-right": "korganizer",
+  },
+  "mpris": {
+    "format": "{player_icon} {dynamic}",
+    "format-paused": "{status_icon} <i>{dynamic}</i>",
+    "player-icons": {
+      "default": "▶",
+      "mpv": "🎵",
+    },
+    "status-icons": {
+      "paused": "⏸",
+    },
+    // "ignored-players": ["firefox"]
   },
   "cpu": {
     "format": "{usage}% ",

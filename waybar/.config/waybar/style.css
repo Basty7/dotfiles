@@ -2,7 +2,7 @@
 /* @import "mocha.css"; */
 
 * {
-    /* font-family: Arial; */
+    font-family: "OpenSans";
     font-size: 12px;
     margin-top: 1px;
     margin-bottom: 1px;
@@ -120,6 +120,8 @@
 
 #workspaces,
 #custom-power,
-#custom-drawer {
-    font-family: "FantasqueSansM Nerd Font";
+#custom-drawer,
+#battery,
+#cpu {
+    font-family: "OpenSans", "FantasqueSansM Nerd Font";
 }

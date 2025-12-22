@@ -183,7 +183,7 @@
   "custom/power": {
     "format": "⏻",
     "tooltip": false,
-    "on-click": "hyprctl dispatch exit",
+    "on-click": "~/power.sh",
   },
   "custom/logout": {
     "format": "󰩈",

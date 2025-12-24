@@ -23,7 +23,7 @@
 #workspaces button {
     color: @lavender;
     border-radius: 1rem;
-    padding: 0.4rem;
+    padding: 0 0.4rem;
     padding-right: 1rem;
 }
 
@@ -52,12 +52,12 @@
 #custom-drawer,
 #mpris {
     background-color: @surface0;
-    padding: 0.5rem 1rem;
+    padding: 0 1rem;
     margin: 1px 0;
 }
 
 #idle_inhibitor {
-    padding: 0.5rem 1rem;
+    padding: 0 1rem;
     margin: 0.5px 0;
 }
 
@@ -104,12 +104,12 @@
 #custom-power {
     margin-right: 1rem;
     border-radius: 0 1rem 1rem 0;
-    padding: 0.5rem 1rem 0.5rem 0.8rem;
+    padding: 0 1rem 0 0.8rem;
     color: @red;
 }
 #custom-logout {
     border-radius: 1rem 0 0 1rem;
-    padding: 0.5rem 0.8rem 0.5rem 1rem;
+    padding: 0 0.8rem 0 1rem;
     color: @peach;
 }
 

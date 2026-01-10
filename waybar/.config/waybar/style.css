@@ -15,7 +15,7 @@
 
 #workspaces {
     border-radius: 1rem;
-    margin: 1px 2px;
+    margin: 0 2px;
     background-color: @surface0;
     /* margin-left: 1rem; */
 }

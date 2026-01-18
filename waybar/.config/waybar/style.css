@@ -58,7 +58,7 @@
 
 #idle_inhibitor {
     padding: 0 1rem;
-    margin: 0.5px 0;
+    margin: 1px 0;
 }
 
 #clock {
@@ -97,12 +97,12 @@
 #custom-drawer {
     border-radius: 1rem;
     padding-right: 1.5em;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     color: @lavender;
 }
 
 #custom-power {
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     border-radius: 0 1rem 1rem 0;
     padding: 0 1rem 0 0.8rem;
     color: @red;

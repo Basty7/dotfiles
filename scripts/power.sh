@@ -3,7 +3,7 @@
 # Simple script to handle a DIY shutdown menu. When run you should see a bunch of options (shutdown, reboot etc.)
 #
 # Requirements:
-# - rofi
+# - tofi
 # - systemd, but you can replace the commands for OpenRC or anything else
 #
 # Instructions:
@@ -11,7 +11,7 @@
 # - Give it exec priviledge, or chmod +x /path/to/power.sh
 # - Run it
 
-chosen=$(echo -e "[Cancel]\nLock\nLogout\nShutdown\nReboot\nSuspend" | tofi)
+chosen=$(echo -e "[Cancel]\nLock\nLogout\nShutdown\nReboot\nSuspend / Sleep" | tofi --prompt "Power Menu:")
 # Info about some states are available here:
 # https://www.freedesktop.org/software/systemd/man/systemd-sleep.conf.html#Description
 
@@ -23,6 +23,6 @@ elif [[ $chosen = "Shutdown" ]]; then
 	systemctl poweroff
 elif [[ $chosen = "Reboot" ]]; then
 	systemctl reboot
-elif [[ $chosen = "Suspend" ]]; then
+elif [[ $chosen = "Suspend / Sleep" ]]; then
 	systemctl suspend
 fi

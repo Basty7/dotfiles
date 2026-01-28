@@ -2,6 +2,9 @@
 
 Welcome to my dotfiles repository for Arch Linux with Hyprland!
 You are welcome to use and modify these dotfiles as you want.
+Those are meant to be used with the stow command: it will create symlinks so you can centralize your config files in one folder.
+Symply `stow <folder-name>` each folder for which you want the settings to be applied.
+  Example (in ~/dotfiles) : to apply waybar config, cd to dotfiles folder and run `stow waybar`
 
 Programs used:
 - Arch Linux as main OS

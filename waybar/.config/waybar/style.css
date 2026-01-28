@@ -1,13 +1,6 @@
 @import "macchiato.css";
 /* @import "mocha.css"; */
 
-* {
-    font-family: "OpenSans";
-    font-size: 12px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-}
-
 #waybar {
     background: rgba(103, 103, 103, 0.35);
     color: @text;
@@ -15,26 +8,33 @@
 
 #workspaces {
     border-radius: 1rem;
-    margin: 0 2px;
-    background-color: @surface0;
+    margin: 1px 1rem;
+    background-color: rgba(123, 123, 123, 0.6);
     /* margin-left: 1rem; */
 }
 
 #workspaces button {
-    color: @lavender;
-    border-radius: 1rem;
-    padding: 0 0.4rem;
-    padding-right: 1rem;
+    border-radius: 10em;
+    padding: 0 0.55rem;
+    margin: 0.3rem 0.4rem;
+    color: transparent;
+    background-color: @surface0;
+    /*padding-right: 1rem;*/
+}
+
+#workspace button box,
+.workspace-label,
+#workspaces button {
+    font-size: 1pt;
 }
 
 #workspaces button.active {
-    color: @sky;
-    border-radius: 1rem;
+    background-color: @lavender;
+    padding: 0 1rem;
 }
 
 #workspaces button:hover {
-    color: @sapphire;
-    border-radius: 1rem;
+    background-color: @sky;
 }
 
 #custom-music,
@@ -124,4 +124,14 @@
 #battery,
 #cpu {
     font-family: "OpenSans", "FantasqueSansM Nerd Font";
+}
+
+*:not(#workspaces):not(.workspace-label):not(button):not(.horizontal) {
+    font-size: 12px;
+}
+
+* {
+    font-family: "OpenSans";
+    margin-top: 1px;
+    margin-bottom: 1px;
 }

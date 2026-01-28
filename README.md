@@ -36,3 +36,6 @@ Programs used:
 - pulseaudio
 
 ## Big thanks to the Catpuccin project for providing color schemes
+
+<img width="1920" height="1080" alt="Screenshot of the config, showcasing zen browser + zed text editor" src="https://github.com/user-attachments/assets/e277144c-c628-484e-889c-eaef071729f4" />
+<img width="1920" height="1080" alt="Screenshot of the config, showcasing fastfetch + tofi app launcher" src="https://github.com/user-attachments/assets/954f6197-1a0d-4bd2-8d34-5a6f14b03619" />

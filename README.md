@@ -11,7 +11,7 @@ Programs used:
 - tofi as app Launcher, power menu, clipboard selector (requires clipman)
 - kitty as TTY emulator
 - starship for $PS1 customization
-- ~Firefox~ --> Zen browser You can still find userChrome to make the toolbar transparent in here
+- ~Firefox~ --> Zen browser. You can still find userChrome to make the firefox toolbar transparent in here
 - xdg-menu as app menu (I don't use it so often though)
 
 ## Big thanks to the Catpuccin project for providing color schemes

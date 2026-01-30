@@ -40,9 +40,7 @@
   // }
   // Modules configuration
   "hyprland/workspaces": {
-    "disable-scroll": false,
     "all-outputs": true,
-    "warp-on-scroll": false,
     "format": "",
     // "format": "{name}:{icon}",
     // "format-icons": {
@@ -50,6 +48,8 @@
     //   "active": " ",
     //   "default": " ",
     // },
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1",
   },
   "keyboard-state": {
     "numlock": true,

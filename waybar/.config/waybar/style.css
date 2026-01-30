@@ -15,8 +15,8 @@
 
 #workspaces button {
     border-radius: 10em;
-    padding: 0 0.55rem;
-    margin: 0.3rem 0.4rem;
+    padding: 0 0.45rem;
+    margin: 0.4rem 0.4rem;
     color: transparent;
     background-color: @surface0;
     /*padding-right: 1rem;*/

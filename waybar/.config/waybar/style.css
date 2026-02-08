@@ -1,10 +1,21 @@
 @import "macchiato.css";
-/* @import "mocha.css"; */
+
+waybar * {
+    all: initial;
+    font-family: "NotoSans", "FantasqueSansM Nerd Font";
+    margin-top: 0;
+}
+
+#waybar > .horizontal {
+    margin: 3px 0;
+}
 
 #waybar {
     background: rgba(103, 103, 103, 0.35);
     color: @text;
 }
+
+/* Workspace switcher*/
 
 #workspaces {
     border-radius: 1rem;
@@ -84,11 +95,6 @@
     border-radius: 1rem 0px 0px 1rem;
 }
 
-#custom-music {
-    color: @mauve;
-    border-radius: 1rem;
-}
-
 #custom-drawer {
     border-radius: 1rem;
     padding-right: 1.5em;
@@ -115,18 +121,10 @@
 
 #workspaces,
 #custom-power,
-#custom-drawer,
-#battery,
-#cpu {
-    font-family: "OpenSans", "FantasqueSansM Nerd Font";
+#custom-drawer {
+    font-family: "FantasqueSansM Nerd Font";
 }
 
 *:not(#workspaces):not(.workspace-label):not(button):not(.horizontal) {
     font-size: 12px;
-}
-
-* {
-    font-family: "OpenSans";
-    margin-top: 1px;
-    margin-bottom: 1px;
 }

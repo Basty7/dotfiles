@@ -15,7 +15,7 @@ Those are meant to be used with the stow command: it will create symlinks so you
   Example: to apply waybar config, cd to dotfiles folder and run `stow waybar`
 
 
-Programs used:
+#### Programs used:
 - Arch Linux as main OS
 - Hyprland as Window Manager
   - hyprpaper as wallpaper manager
@@ -30,12 +30,22 @@ Programs used:
 - nwg-drawer as app menu (I don't use it so often though)
 - Text editor: zed
 
+Non-exhaustive list, kinda sure you'll miss lots of them.
+
 #### Waybar deps:
 - nm-applet
 - blueman-applet
 - pulseaudio
 
+#### Future projects/improvements planned:
+- [ ] Get rid of most Qt apps because their theming is not great on Hyprland
+- [ ] Alt-tab like window switcher
+- [ ] Animate workspace indicator (waybar top left corner, idk how I could do that but it would be gorgeous)
+
+If you feel like helping, don't hesitate ! 
+
 ## Big thanks to the Catpuccin project for providing color schemes
+#### Here are some screenshots of the desktop
 
 <img width="1920" height="1080" alt="Screenshot of the config, showcasing zen browser + zed text editor" src="https://github.com/user-attachments/assets/e277144c-c628-484e-889c-eaef071729f4" />
 <img width="1920" height="1080" alt="Screenshot of the config, showcasing fastfetch + tofi app launcher" src="https://github.com/user-attachments/assets/954f6197-1a0d-4bd2-8d34-5a6f14b03619" />

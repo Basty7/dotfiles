@@ -9,7 +9,6 @@
   "modules-left": ["custom/drawer", "hyprland/workspaces", "hyprland/window"],
   "modules-center": ["clock"],
   "modules-right": [
-    "idle_inhibitor",
     "pulseaudio",
     "cpu",
     "memory",
@@ -58,14 +57,6 @@
     "format-icons": {
       "locked": "",
       "unlocked": "",
-    },
-  },
-
-  "idle_inhibitor": {
-    "format": "{icon}",
-    "format-icons": {
-      "activated": "",
-      "deactivated": "",
     },
   },
   "tray": {

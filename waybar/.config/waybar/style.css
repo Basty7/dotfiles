@@ -56,11 +56,6 @@
     margin: 1px 0;
 }
 
-#idle_inhibitor {
-    padding: 0 1rem;
-    margin: 1px 0;
-}
-
 #clock {
     color: @blue;
     border-radius: 1rem;

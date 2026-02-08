@@ -30,7 +30,7 @@ Those are meant to be used with the stow command: it will create symlinks so you
 - nwg-drawer as app menu (I don't use it so often though)
 - Text editor: zed
 
-Non-exhaustive list kinda sure you'll miss lots of them.
+Non-exhaustive list, kinda sure you'll miss lots of them.
 
 #### Waybar deps:
 - nm-applet
@@ -38,7 +38,11 @@ Non-exhaustive list kinda sure you'll miss lots of them.
 - pulseaudio
 
 #### Future projects/improvements planned:
--
+- [ ] Get rid of most Qt apps because their theming is not great on Hyprland
+- [ ] Alt-tab like window switcher
+- [ ] Animate workspace indicator (waybar top left corner, idk how I could do that but it would be gorgeous)
+
+If you feel like helping, don't hesitate ! 
 
 ## Big thanks to the Catpuccin project for providing color schemes
 

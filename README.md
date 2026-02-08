@@ -15,7 +15,7 @@ Those are meant to be used with the stow command: it will create symlinks so you
   Example: to apply waybar config, cd to dotfiles folder and run `stow waybar`
 
 
-Programs used:
+#### Programs used:
 - Arch Linux as main OS
 - Hyprland as Window Manager
   - hyprpaper as wallpaper manager
@@ -30,10 +30,15 @@ Programs used:
 - nwg-drawer as app menu (I don't use it so often though)
 - Text editor: zed
 
+Non-exhaustive list kinda sure you'll miss lots of them.
+
 #### Waybar deps:
 - nm-applet
 - blueman-applet
 - pulseaudio
+
+#### Future projects/improvements planned:
+-
 
 ## Big thanks to the Catpuccin project for providing color schemes
 

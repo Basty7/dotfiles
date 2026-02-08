@@ -29,6 +29,11 @@ Those are meant to be used with the stow command: it will create symlinks so you
 - ~Firefox~ --> Zen browser. You can still find userChrome to make the firefox toolbar transparent in here
 - nwg-drawer as app menu (I don't use it so often though)
 - Text editor: zed
+- Style settings:
+  - nwg-look for GTK apps
+  - qt5ct for Qt5 apps
+  - qt6ct for Qt6 apps
+  - Kvantum, idk what for but I have it...
 
 Non-exhaustive list, kinda sure you'll miss lots of them.
 

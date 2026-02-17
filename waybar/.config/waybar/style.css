@@ -1,18 +1,30 @@
 @import "macchiato.css";
 
-waybar * {
-    all: initial;
+/* general */
+
+* {
     font-family: "NotoSans", "FantasqueSansM Nerd Font";
     margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 #waybar > .horizontal {
+    all: initial;
     margin: 3px 0;
 }
 
+*:not(#workspaces):not(.workspace-label):not(button):not(.horizontal) {
+    font-size: 12px;
+}
+
 #waybar {
+    all: initial;
     background: rgba(103, 103, 103, 0.35);
     color: @text;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 /* Workspace switcher*/

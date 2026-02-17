@@ -60,23 +60,26 @@
     background-color: @sky;
 }
 
-#custom-music,
 #tray,
-#backlight,
 #clock,
-#battery,
-#pulseaudio,
 #custom-lock,
 #custom-power,
 #custom-logout,
-#cpu,
-#memory,
-#temperature,
-#custom-drawer,
-#mpris {
+#custom-drawer {
     background-color: @surface0;
     padding: 0 1rem;
     margin: 1px 0;
+}
+
+#pulseaudio,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#battery {
+    background-color: @surface0;
+    padding: 0 1rem;
+    margin: 0;
 }
 
 #clock {

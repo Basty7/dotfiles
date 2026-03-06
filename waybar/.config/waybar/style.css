@@ -140,6 +140,6 @@
     font-family: "FantasqueSansM Nerd Font";
 }
 
-*:not(#workspaces):not(.workspace-label):not(button):not(.horizontal) {
-    font-size: 12px;
+.tooltip {
+    background-color: @surface0;
 }

@@ -37,10 +37,15 @@ Those are meant to be used with the stow command: it will create symlinks so you
 
 Non-exhaustive list, kinda sure you'll miss lots of them.
 
-#### Waybar deps:
+#### Waybar module deps:
 - nm-applet
 - blueman-applet
-- pulseaudio
+- pulseaudio + pavucontrol for more detailed audio settings
+
+#### Fonts used
+- Noto Sans
+- Hack (nerd font)
+- FantasqueSansM (nerd font) -> waybar, can be replaced with Hack
 
 #### Future projects/improvements planned:
 - [ ] Get rid of most Qt apps because their theming is not great on Hyprland

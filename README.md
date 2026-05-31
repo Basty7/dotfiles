@@ -51,6 +51,7 @@ Non-exhaustive list, kinda sure you'll miss lots of them.
 - [ ] Get rid of most Qt apps because their theming is not great on Hyprland
 - [ ] Alt-tab like window switcher
 - [ ] Animate workspace indicator (waybar top left corner, idk how I could do that but it would be gorgeous)
+- [ ] Switch from tofi (unmaintained) to ?? maybe hyprlauncher
 
 If you feel like helping, don't hesitate ! 
 
